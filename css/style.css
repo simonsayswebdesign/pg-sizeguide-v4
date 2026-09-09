@@ -331,3 +331,46 @@ h3 { font-size: 18px; font-weight: 800; }
   .measure-grid { grid-template-columns: 1fr; }
   .footer__grid { grid-template-columns: 1fr; }
 }
+
+/* Sitewide Button Blue Border Removal */
+button,
+a.button,
+.button,
+.btn,
+.btn-skew,
+.btn--primary,
+.btn--yellow,
+.pg-btn,
+.pg-btn--primary,
+.ct-link-button,
+.atomic-outline-button,
+.atomic-small-button,
+.atomic-small-button-outline,
+.sg-button,
+input[type="button"],
+input[type="submit"],
+input[type="reset"] {
+  border: none !important;
+  outline: none !important;
+}
+
+.btn-ghost,
+.btn--ghost,
+.pg-btn--ghost {
+  border: 1px solid #E8E8ED !important;
+  outline: none !important;
+}
+.btn-ghost:hover,
+.btn--ghost:hover,
+.pg-btn--ghost:hover {
+  border-color: #ED1642 !important;
+}
+
+.btn-skew,
+.pg-btn--primary,
+.btn--primary,
+.btn--yellow {
+  border: none !important;
+  outline: none !important;
+  box-shadow: 0 4px 14px rgba(237,22,66,0.22) !important;
+}
